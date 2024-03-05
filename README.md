@@ -2,4 +2,4 @@
 
 Digital clock made with JavaScript
 
-![Digital Watch](digital.png)
+![Digital Watch](digital.jpg)
