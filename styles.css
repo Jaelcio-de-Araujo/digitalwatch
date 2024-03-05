@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    margin: 0;
+}
+
+.clock {
+    display: flex;
+}
+
+.time-wrapper {
+    position: relative;
+    margin: 0 5px;
+}
+
+.time-bg {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* efeito de reflexo com uma cor mais clara */
+}
+
+.time {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 2em; /* aumenta o tamanho */
+    font-weight: bold; /* torna o texto negrito */
+    position: relative;
+}
